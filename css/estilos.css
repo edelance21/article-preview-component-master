@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    justify-content: center;
+
+}
+
+/* contenedor */
+.main{
+    background-color: white;
+    width: 16rem;
+    height: 14rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    justify-items: center;
+}
+
+#container{
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin-top: 4rem;
+}
+
+/* parrafo */
+.main-p{
+    font-size: 13px;
+    font-weight: 500;
+    padding-bottom: 1rem;
+    color: hsl(214, 17%, 51%);
+    width: 35ch;
+}
+
+/* Imagen */
+.escritorio-img{
+    width: 16rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    display: block; 
+}
+
+.michelle-avatar{
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 1rem;
+}
+
+.div-avatar{
+    display: flex;
+    gap: 1rem;
+}
+
+/* titulo */
+h1{
+    font-size: 1rem;
+    width: 28ch;
+    display: flex;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    color: hsl(217, 19%, 35%);
+}
+
+
+/* iconos */
+
+.div-icons{
+    background-color: hsl(217, 19%, 35%);
+    height: 2.8rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 80%;
+    display: flex;
+    padding-left: 1rem;
+    align-items: center;
+    gap: 0.5rem;
+    position: absolute;
+    top: 82%;
+    z-index: 10000;
+}
+
+.hidden{
+    display: none;
+}
+
+.icon {
+    width: 22px;
+    height: 20px;
+}
+
+.compartir{
+    width: 1rem;
+    position: absolute;
+    right: 23%;
+    bottom: 14%;
+    z-index: 100000000;
+}
+
+.share{
+    letter-spacing: 0.2rem;
+    color: hsl(214, 17%, 51%);
+    font-size: 13px;
+}
+
+/* usuario */
+.michelle-p{
+    font-size: 13px;
+    font-weight: 600;
+    color: hsl(217, 19%, 35%);
+}
+
+.date{
+    color: hsla(214, 17%, 51%, 0.512);
+    font-size: 100;
+}
+
+.div-avatar{
+    padding-right: 5rem;
+}
+
+@media (min-width:760px) {
+    .compartir {
+        right: 11%;
+    }
+}
+
+
+@media (min-width:1200px) {
+    .escritorio-img{
+        width: 18rem;
+        height: 16rem;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        border-top-right-radius: 0;
+        display: flex;
+
+    }
+
+    .main{
+        width: 30rem;
+        height: 16rem;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+
+    #container{
+        display: flex;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        margin-top: 0;
+        margin-top: 15%;
+    }
+
+    h1{
+        font-size: 1.6rem;
+        padding-top: 1.5rem;
+        width: 30ch;
+    }
+
+    .main-p{
+        font-size: 1rem;
+        width: 48ch;
+    }
+
+    .div-avatar{
+        padding-right: 15rem;
+        padding-top: 0.5rem;
+    }
+
+    .div-icons{
+        width: 14%;
+        top: 56%;
+        border-radius: 2rem;
+        border: 1px solid white;
+        right: 26%;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .compartir{
+        right: 32%;
+        bottom: 33%;
+        width: 1.5rem;
+        cursor: pointer;
+    }
+
+    .compartir:hover{
+        background-color: hsl(0, 64%, 86%);
+        border-radius: 1rem;
+        height: 4%;
+    }
+}
