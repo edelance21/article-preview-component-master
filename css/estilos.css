@@ -17,7 +17,7 @@ body{
 /* contenedor */
 .main{
     background-color: white;
-    width: 16rem;
+    width: 19rem;
     height: 14rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
@@ -40,7 +40,7 @@ body{
 
 /* Imagen */
 .escritorio-img{
-    width: 16rem;
+    width: 19rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     display: inherit;
