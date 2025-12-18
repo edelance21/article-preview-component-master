@@ -10,7 +10,8 @@ body{
     background-color: hsl(210, 46%, 95%);
     display: flex;
     justify-content: center;
-
+    align-items: center;
+    min-height: 100vh;
 }
 
 /* contenedor */
@@ -26,7 +27,6 @@ body{
 #container{
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    margin-top: 4rem;
 }
 
 /* parrafo */
@@ -43,7 +43,7 @@ body{
     width: 16rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    display: block; 
+    display: inherit;
 }
 
 .michelle-avatar{
@@ -155,7 +155,6 @@ h1{
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
         margin-top: 0;
-        margin-top: 15%;
     }
 
     h1{
@@ -186,7 +185,7 @@ h1{
 
     .compartir{
         right: 32%;
-        bottom: 33%;
+        bottom: 35%;
         width: 1.5rem;
         cursor: pointer;
     }
